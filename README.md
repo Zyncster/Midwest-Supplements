@@ -1,0 +1,2 @@
+## 🚧 Work in Progress
+This is a personal project to build a simple website for a local supplement store. It's a learning exercise in HTML, CSS, JavaScript, and Bootstrap. The site is currently under development and may change significantly as I learn and improve.
