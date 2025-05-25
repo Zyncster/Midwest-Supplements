@@ -30,3 +30,20 @@ padding: 0;
     font-weight: bold;
     text-decoration: none;
 }
+
+.hero-banner {
+    background: url('../assets/images/storefront.jpg') center/cover no-repeat;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #storefront {
+    background-image: url('../assets/images/storefront.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px; /* or however tall you want the hero */
+  }
