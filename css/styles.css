@@ -68,8 +68,39 @@ padding: 0;
 }
 
 .about-text-section {
+    padding: 4rem 2rem;
     background-color: #f8f9fa;
     color: #333;
-    font-size: 1.1rem;
-    line-height: 1.6;
+}
+
+.about-text-section h2 {
+    font-size: 2rem;
+    color: #2d89ed;
+    border-bottom: 2px solid #2d89ed;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.about-text-section ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.about-text-section ul li::before {
+    content: "\2714";
+    color: #27ae60;
+    margin-right: 10px;
+    font-weight: bold;   
+}
+
+.about-text-section p {
+    margin-bottom: 1.2rem;
+}
+
+.closing-message {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    color: #970000;
 }
