@@ -2,20 +2,6 @@ h1 {
     text-align: center;
 }
 
-.midwest {
-    color: #2d89ed
-}
-
-.supplements {
-    color: #970000
-}
-
-#kyle-herman-ownership {
-    display: block;
-    margin: auto;
-    width: 25%;
-}
-
 #navbar {
 background-color: black;
 display: flex;
@@ -45,39 +31,77 @@ padding: 0;
 }
 
 .hero-banner {
-    position: relative;
-    background: url('../assets/images/storefront.jpg') center/cover no-repeat;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 2rem;
-    overflow: hidden;
-} 
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  overflow: hidden;
+}
 
 .hero-banner::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5); /* Darkens the image for better text contrast */
-    z-index: 1;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-banner--index {
+  background-image: url('../assets/images/kyle-herman-ownership.jpg');
+  align-items: flex-end;
+  padding-bottom: 4rem;
+}
+
+.hero-banner--about {
+  position: relative;
+  background-image: url('../assets/images/storefront.jpg');
 }
 
 .hero-text {
-    position: relative;
-    z-index: 2;
-    max-width: 800px;
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
 }
 
 .hero-text h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .hero-text p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-banner--index .hero-text {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    min-height: 50vh;
+    padding: 1rem;
+  }
+
+  .hero-banner--index {
+    padding-bottom: 2rem;
+  }
+
+  .hero-banner--index .hero-text {
+    margin-bottom: 1rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
 }
 
 .about-text-section {
