@@ -63,6 +63,13 @@ padding: 0;
 .hero-banner--about {
   position: relative;
   background-image: url('../assets/images/storefront.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 4rem;
 }
 
 .hero-text {
@@ -102,6 +109,11 @@ padding: 0;
   .hero-text p {
     font-size: 1.2rem;
   }
+}
+
+.welcome-message p {
+  font-size: 1.5rem;
+  color: #333;
 }
 
 .about-text-section {
