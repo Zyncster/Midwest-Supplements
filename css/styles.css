@@ -283,3 +283,45 @@ padding: 0;
   .contact-button:hover {
     background-color: #ddd
   }
+
+  .contact-hero {
+    background-image: url('../assets/images/kyle-herman-ownership.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+
+  .contact-hero::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .contact-hero .hero-text {
+    position: relative;
+    z-index: 0;
+  }
+
+  .about-text-section form input,
+  .about-text-section form textarea {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .about-text-section form button {
+    background-color: #2d89ed;
+    border: none;
+  }
+
+  .about-text-section form button:hover {
+    background-color: #1b6cd9;
+  }

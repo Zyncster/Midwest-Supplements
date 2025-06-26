@@ -11,33 +11,47 @@
 <body>
   <div id="navbar-container"></div>
 
-  <h1>Contact us</h1>
-    <form action="">
-      <!--Tells submit button where to submit form-->
-      <div>
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" />
-      </div>
+  <section class="hero-banner contact-hero">
+    <div class="hero-text">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you - reach out anytime!</p>
+    </div>
+  </section>
 
-      <div>
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" name="lastname" />
-      </div>
+  <section class="about-text-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Get in Touch</h2>
 
-      <div>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
-      </div>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label fw-bold">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your full name">
+        </div>
 
-      <div>
-        <label for="howcanwehelp">How can we help?</label>
-        <textarea id="howcanwehelp" name="howcanwehelp"></textarea> <!-- Text box needs to be sized down-->
-      </div>
+        <div class="mb-3">
+          <label for="email" class="form-label fw-bold">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="your@email.com">
+        </div>
 
-      <div>
-        <button type="submit">Submit</button>
+        <div class="mb-3">
+          <label for="message" class="form-label fw-bold">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+        </div>
+      </form>
+
+      <div class="text-center mt-5">
+        <p><strong>Address:</strong> 732 S Rangeline Rd, STE G, Joplin, MO 64801</p>
+        <p><strong>Phone:</strong> (417) 901-0776</p>
+        <p><strong>Email:</strong> info@midwestsupplementsusa.com</p>
       </div>
-    </form>
+    </div>
+  </section>
+
+  
     <script src="../js/scripts.js"></script>
     <div id="footer-container"></div>
   </body>
