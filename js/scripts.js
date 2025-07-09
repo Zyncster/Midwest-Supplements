@@ -15,3 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error("Error loading footer:", error));
   })
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const flyIns = document.querySelectorAll('.fly-in');
+    flyIns.forEach((el, i) => {
+      setTimeout(() => {
+        el.classList.add('show');
+      }, 100 + i *100);
+    });
+  });
