@@ -150,6 +150,16 @@ padding: 0;
     color: #970000;
 }
 
+.hero-banner--products {
+  background-image: url('../assets/images/product-wall.jpeg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #000;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+}
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
