@@ -11,6 +11,14 @@ margin: 0;
 padding: 0;
 }
 
+.navbar-logo img {
+  height: 40px;
+  object-fit: contain;
+  display: block;
+  padding: 4px 10px;
+  background-color: black;
+}
+
 #navbar a {
     color: white;
     font-weight: bold;
