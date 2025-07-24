@@ -218,6 +218,16 @@ padding: 0.5rem 2rem;
     align-items: center;
     justify-content: center;
   }
+
+  .click-enlarge {
+    cursor: zoom-in;
+    border-radius: 6px;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .click-enlarge:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
   
   .card-front img {
     max-height: 160px;
